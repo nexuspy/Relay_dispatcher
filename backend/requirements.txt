@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+openai
+python-dotenv
+aiosqlite
+redis
+pydantic-settings
+httpx
+google-generativeai
