@@ -8,7 +8,7 @@ Relay is a production-ready, multi-tenant AI support system designed to automate
 
 - **Python 3.10+**
 - **Node.js 18+**
-- **Google Gemini API Key** (or OpenAI if configured)
+- **Google Gemini API Key** (or OpenAI if configured GPT OSS configured through https://build.nvidia.com/openai/gpt-oss-120b)
 
 ### 🐳 Quick Start with Docker
 If you have Docker installed, you can spin up the entire system with a single command:
@@ -51,7 +51,6 @@ The dashboard will be available at `http://localhost:3000`.
 - **AI Engine**: Google Gemini 1.5 Flash.
 - **Visualization**: GraphQL-style schema previews and Obsidian-style Graph View.
 
-## 🏗 Assumptions Made
 
 1. **Tenant Isolation**: Each request to the API must include a `tenant_id` to ensure strict data isolation.
 2. **AI Reliability**: The system assumes the LLM can successfully map natural language to structured categories (Sales, Support, Technical) and priorities.
